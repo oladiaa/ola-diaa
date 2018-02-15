@@ -1,0 +1,24 @@
+git init
+git add firstpart.txt
+git add secondpart.txt
+git add thirdpart.txt
+git reset secondpart.txt
+git add secondpart.txt
+git commit -m “I added the three files”
+git remote add origin https://github.com/oladiaa/ola-diaa
+fatal: remote origin already exists.
+git remote remove origin
+git remote add origin https://github.com/oladiaa/ola-diaa
+git push -u origin master
+git branch ReadMe
+git checkout ReadMe
+touch README.md
+vim README.md
+git add README.md
+git commit -m " Uploading the Read Me file"
+git push -u origin ReadMe
+git checkout master
+git merge ReadMe
+git add AllMyCommands.txt
+git commit -m “Adding the AllMyCommands File"
+git push -u origin master
